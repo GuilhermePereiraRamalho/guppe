@@ -1,0 +1,11 @@
+"""
+1. Crie um programa que lê 6 valores inteiros, armazene em uma lista e em seguida mostre na tela os valores lidos.
+"""
+lista: list[int] = []
+
+while len(lista) < 6:
+    valor: int = int(input(f"Informe o {len(lista) + 1}/6 valor: "))
+    lista.append(valor)
+
+for valor in lista:
+    print(valor)
